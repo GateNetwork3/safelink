@@ -127,8 +127,8 @@ service nginx restart
 yum -y install zip unzip
 cd /home/vps/public_html
 wget https://raw.githubusercontent.com/GateNetwork3/safelink/master/ocs-panel.zip
-unzip OCSPanelCentos6.zip
-rm -f OCSPanelCentos6.zip
+unzip ocs-panel.zip
+rm -f ocs-panel.zip
 chown -R nginx:nginx /home/vps/public_html
 chmod -R +rw /home/vps/public_html
 chmod 777 /home/vps/public_html/config
